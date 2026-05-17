@@ -57,7 +57,11 @@
             <artifactId>junit-jupiter</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
-        </dependency>
+			
+        <groupId>com.example</groupId>
+        <artifactId>currency-converter</artifactId>
+        <version>v0.0.2</version>
+        
     </dependencies>
 
     <build>
